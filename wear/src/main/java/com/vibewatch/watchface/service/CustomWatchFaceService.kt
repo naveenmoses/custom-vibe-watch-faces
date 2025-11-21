@@ -59,7 +59,7 @@ class CustomWatchFaceService : WatchFaceService(), DataClient.OnDataChangedListe
             watchState = watchState,
             complicationSlotsManager = complicationSlotsManager,
             currentUserStyleRepository = currentUserStyleRepository,
-            canvasType = CanvasType.HARDWARE.id
+            canvasType = CanvasType.HARDWARE
         )
         
         return WatchFace(
